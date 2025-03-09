@@ -1,0 +1,26 @@
+/* src/app/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Parisienne&display=swap');
+
+@layer base {
+  .font-romantic {
+    font-family: 'Parisienne', cursive;
+    font-weight: 400;
+  }
+  
+  .font-special {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+  }
+}
+
+@font-face {
+    font-family: 'Emoji';
+    src: local('Apple Color Emoji'), 
+         local('Segoe UI Emoji'), 
+         local('Noto Color Emoji');
+  }
+  
+  .font-emoji {
+    font-family: 'Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji';
+  }
+/* Rest of your existing CSS */
