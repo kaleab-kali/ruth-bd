@@ -1,49 +1,3 @@
-// // src/components/HeartContent.tsx
-// export default function HeartContent() {
-//     return (
-//       <div className="text-center p-4">
-//         <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-pink-600 to-red-500 bg-clip-text text-transparent">
-//           Happy Birthday!
-//         </h2>
-//         <p className="text-gray-600 mt-4 text-lg">
-//           Wishing you an amazing day filled with love and joy!
-//         </p>
-//       </div>
-//     );
-//   }
-
-
-// // src/components/HeartContent.tsx
-// import { useState, useEffect } from 'react';
-// import { motion, AnimatePresence } from 'framer-motion';
-// import Confetti from 'canvas-confetti';
-
-// const balloonColors = ['#ff6b6b', '#4ecdc4', '#ffe66d', '#ff9ff3'];
-// const messageAnimations = [
-//   { type: 'staggerFly', delay: 0.1 },
-//   { type: 'typewriter', delay: 0.05 },
-//   { type: 'bounce', delay: 0.2 },
-//   { type: 'spin', delay: 0.3 },
-//   { type: 'wave', delay: 0.15 },
-//   { type: 'heartPulse', delay: 0.1 }
-// ];
-
-// const messages = [
-//   "Happy Birthday, Ruth! 🎉",
-//   "The moment you entered this world...",
-//   "The universe said 'Whoa, this one's special!' 🌟",
-//   "You've been outsmarting mirrors since day one...",
-//   "Because normal beauty standards can't handle you 💁♀️",
-//   "Your kindness? So potent it should come with a warning label ⚠️",
-//   "And your sense of humor? Criminal. We're all guilty of laughing too hard 😂",
-//   "Here's to the woman who makes adulting look suspiciously easy...",
-//   "(While secretly keeping memes alive in our group chats 📱)",
-//   "May your year be as extraordinary as your coffee orders ☕",
-//   "And your cake be as sweet as your dance moves 💃",
-//   "Happy Birthday, Superstar! 🚀"
-// ];
-
-
 // src/components/HeartContent.tsx
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -192,7 +146,7 @@ const HeartContent: React.FC = () => {
       ))}
 
       {/* Fixed progress indicators */}
-      <div className="absolute bottom-30 flex gap-2 z-20">
+      <div className="absolute bottom-40 flex gap-2 z-20">
         {messages.map((_, i) => (
           <motion.div
             key={i}
